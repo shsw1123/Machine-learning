@@ -14,9 +14,9 @@ plt.imshow(number_image, cmap=plt.get_cmap("binary"), interpolation="nearest") #
 print(y[35000]) # เพื่อบ่งบอกว่า ตัวเลขที่ 15000 คือข้อมูลตัวอะไร
 plt.show() #show image
 
-#print(mnist_law) #properties
-#print(mnist["data"].shape) #70000 data, 28x28 pixel = 784
-#print(x.shape)
+print(mnist_law) #properties
+print(mnist["data"].shape) #70000 data, 28x28 pixel = 784
+print(x.shape)
 
 
 
