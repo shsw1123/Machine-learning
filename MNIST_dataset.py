@@ -5,13 +5,13 @@ from sklearn import datasets
 digit_dataset = datasets.load_digits()
 
 print(digit_dataset.keys())
-#print(digit_dataset['data'])
-#print(digit_dataset['data'][0:10])
-#print(digit_dataset['target'])
-#print(digit_dataset['feature_names'])
-#print(digit_dataset['target_names'])
-#print(digit_dataset['DESCR'])
-#print(digit_dataset['images'].shape) # มีกี่ข้อมูล และขนาดกี่ pixel
-#print(digit_dataset.data)
-#print(digit_dataset.images.shape) # ได้เช่นกัน
+print(digit_dataset['data'])
+print(digit_dataset['data'][0:10])
+print(digit_dataset['target'])
+print(digit_dataset['feature_names'])
+print(digit_dataset['target_names'])
+print(digit_dataset['DESCR'])
+print(digit_dataset['images'].shape) # มีกี่ข้อมูล และขนาดกี่ pixel
+print(digit_dataset.data)
+print(digit_dataset.images.shape) # ได้เช่นกัน
 print(digit_dataset.images[0:10]) # ข้อมูลขอตัวแรก
